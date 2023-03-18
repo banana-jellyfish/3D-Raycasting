@@ -1,0 +1,6 @@
+instructions to turn into distributable game
+1) in command prompt at the root of the game folder, run pyinstaller maingame.py
+2) distributable files are copied to a dist folder, you will need to also copy the .png and .wav files separately
+
+
+you can use different generation options at pyinstaller.org

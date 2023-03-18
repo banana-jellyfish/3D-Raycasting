@@ -1,0 +1,79 @@
+ERROR:root:name 'error' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1229, in <module>
+    title(posX,posY,worldMap)
+  File "C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 284, in title
+    error
+NameError: name 'error' is not defined
+ERROR:root:main() missing 4 required positional arguments: 'posX', 'posY', 'worldMap', and 'resolution'
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1227, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1026, in main
+    main()
+TypeError: main() missing 4 required positional arguments: 'posX', 'posY', 'worldMap', and 'resolution'
+ERROR:root:No file 'emptyshoot.wav' found in working directory 'C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME'.
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1236, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 552, in main
+    pistolemptysound = pygame.mixer.Sound("emptyshoot.wav")
+FileNotFoundError: No file 'emptyshoot.wav' found in working directory 'C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME'.
+ERROR:root:No file 'emptyshoot.wav' found in working directory 'C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME'.
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1236, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 552, in main
+    pistolemptysound = pygame.mixer.Sound("emptyshoot.wav")
+FileNotFoundError: No file 'emptyshoot.wav' found in working directory 'C:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME'.
+ERROR:root:main() missing 4 required positional arguments: 'posX', 'posY', 'worldMap', and 'resolution'
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1243, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1034, in main
+    main()
+TypeError: main() missing 4 required positional arguments: 'posX', 'posY', 'worldMap', and 'resolution'
+ERROR:root:name 'gunwidth' is not defined
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1245, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 305, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1011, in main
+    screen.blit(gunimg,(width/2-(gunwidth/2)-6,height/2-(gunwidth/3)))
+NameError: name 'gunwidth' is not defined
+ERROR:root:'int' object is not subscriptable
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1245, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1184, in main
+    bloodsprites.append(blood(sprites[i-1].x,sprites[i-1].y,(-sprites[i-1].width/2+(width/2)-sprites[i-1].startx,rng[1]),sprites[i-1].dist))
+TypeError: 'int' object is not subscriptable
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1247, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 999, in main
+    pygame.draw.rect(screen,(255,0,0),(width/(1/i),width/10,width/8,width/4))
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 1247, in <module>
+    title(posX,posY,worldMap)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 304, in title
+    main(posX,posY,worldMap,resolution)
+  File "c:\Users\Logan\Desktop\coding\ACTUALZOMBIEGAME\maingame.py", line 999, in main
+    pygame.draw.rect(screen,(255,0,0),(width/i,width/10,width/8,width/4))
+ZeroDivisionError: division by zero
